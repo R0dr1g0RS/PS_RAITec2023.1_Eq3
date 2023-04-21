@@ -43,19 +43,62 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link" id="home-menu">Home </a>
-                        <a class="nav-item nav-link" id="about-menu">Introdução </a>
-                        <a class="nav-item nav-link" id="specialists-menu">O que os Especialista dizem? </a>
-                        <a class="nav-item nav-link" id="exercises-menu">Exercícios Físicos em Casa </a>
-                        <a class="nav-item nav-link" id="food-menu">Alimentos Saudáveis </a>
-                        <a class="nav-item nav-link" id="contato-menu">Contato </a>
+                        <a class="nav-item nav-link" id="home-menu">Home</a>
+                        <a class="nav-item nav-link" id="about-menu">Introdução</a>
+                        <a class="nav-item nav-link" id="specialists-menu">O que os Especialista dizem?</a>
+                        <a class="nav-item nav-link" id="exercises-menu">Exercícios Físicos em Casa</a>
+                        <a class="nav-item nav-link" id="food-menu">Alimentos Saudáveis</a>
+                        <a class="nav-item nav-link" id="contato-menu">Contato</a>
                     </div>
                 </div>
             </nav>
 
         </div>    
     </header>
+    <main>
+        <div class="container-fluid">
+            <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#mainSlider" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#mainSlider" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/exercicio1.jpg" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Qual a importância de uma vida saudável?</h2>
+                            <a href="#" class="main-btn">Saúde e Bem-Estar</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/exercicio3.jpg" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Exercícios Físicos e a Saúde</h2>
+                            <a href="#" class="main-btn">Exercícios Físicos</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/alimento1.jpg" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Alimentação e Saúde</h2>
+                            <a href="#" class="main-btn">Alimentação Saudável</a>
+                        </div>
+                    </div>
+                </div>
     
+                <a href="#mainSlider" class="carousel-control-prev" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </a>
+                <a href="#mainSlider" class="carousel-control-next" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </a>
+            </div>
+        </div>
+    </main>
+
     <script src="js/scripts.js"> </script>
     
 </body>
