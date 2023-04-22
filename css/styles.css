@@ -45,7 +45,7 @@ header, .navbar{
 }
 
 #logo{
-    width: 70px;
+    width: 55px;
 }
 
 .navbar-brand{
@@ -114,6 +114,10 @@ ol{
 
 
 /*Seção dos Especialistas*/
+#specialists-say .container{
+    height: 90vh;
+}
+
 .specialists-say{
     background-color: rgb(20, 20, 20);
 }
@@ -145,12 +149,12 @@ ol{
 
 }
 
-.nutrients i, .nutrients h4{
+.nutrients .btn i, .nutrients h4{
     transition: .5s;
     margin-bottom: 20px;
 }
 
-.nutrients i{
+.nutrients .btn i{
     font-size: 36px;
     color: #444;
 }
@@ -161,7 +165,7 @@ ol{
     text-transform: uppercase;
 }
 
-.nutrients:hover > i{
+.nutrients:hover > .btn i{
     font-size: 30px;
     color: rgb(116, 0, 0);
 }

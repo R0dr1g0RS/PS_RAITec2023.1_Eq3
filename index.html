@@ -43,12 +43,12 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link" id="home-menu">Home</a>
+                        <a href="#mainSlider" class="nav-item nav-link" id="home-menu">Home</a>
                         <a class="nav-item nav-link" id="about-menu">Introdução</a>
-                        <a class="nav-item nav-link" id="specialists">O que os Especialista dizem?</a>
+                        <a href="#specialists-say" class="nav-item nav-link" id="specialists">O que os Especialista dizem?</a>
                         <a class="nav-item nav-link" id="exercises-menu">Exercícios Físicos em Casa</a>
-                        <a class="nav-item nav-link" id="food-menu">Fontes de Nutrientes</a>
-                        <a class="nav-item nav-link" id="contato-menu">Contato</a>
+                        <a href="#nutrients-fonts" class="nav-item nav-link" id="food-menu">Fontes de Nutrientes</a>
+                        <a href="#footer-contact" class="nav-item nav-link" id="contato-menu">Contato</a>
                     </div>
                 </div>
             </nav>
@@ -70,7 +70,7 @@
                         <img src="img/exercicio1.jpg" class="d-block w-100">
                         <div class="carousel-caption d-none d-md-block">
                             <h2>Qual a importância de uma vida saudável?</h2>
-                            <a href="#" class="main-btn">Saúde e Bem-Estar</a>
+                            <a href="#specialists-say" class="main-btn">Saúde e Bem-Estar</a>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -84,7 +84,7 @@
                         <img src="img/alimento1.jpg" class="d-block w-100">
                         <div class="carousel-caption d-none d-md-block">
                             <h2>Alimentação e Saúde</h2>
-                            <a href="#" class="main-btn">Alimentação Saudável</a>
+                            <a href="#nutrients-fonts" class="main-btn">Alimentação Saudável</a>
                         </div>
                     </div>
                 </div>
@@ -189,39 +189,67 @@
                             <div class="title-line"></div>
                         </div>
                         <div class="col-md-4 nutrients">
-                            <i class="fa-solid fa-apple-whole"></i>
+                            <button class="btn"><i class="fa-solid fa-apple-whole"></i></button>
                             <h4>vitaminas</h4>
                             <b>Importantes em processos metabólicos, imunológicos e de desenvolvimento</b>
-                        </div>
+                        </div>                        
                         <div class="col-md-4 nutrients">
-                            <i class="fa-solid fa-drumstick-bite"></i>
+                            <button class="btn"><i class="fa-solid fa-drumstick-bite"></i></button>
                             <h4>proteínas</h4>
                             <b>Essenciais para o crescimento, reparação e manutenção dos tecidos do corpo humano</b>
                         </div>
                         <div class="col-md-4 nutrients">
-                            <i class="fa-solid fa-glass-water"></i>
+                            <button class="btn"><i class="fa-solid fa-glass-water"></i></button>
                             <h4>água</h4>
                             <b>Compõe a maior parte do nosso corpo, sendo vital para nossa vida</b>
                         </div>
                         <div class="col-md-4 nutrients">
-                            <i class="fa-solid fa-cubes"></i>
+                            <button class="btn"><i class="fa-solid fa-cubes"></i></button>
                             <h4>minerais</h4>
                             <b>Fundamentais na formação dos ossos, dentes e tecidos do nosso organismo</b>
                         </div>
                         <div class="col-md-4 nutrients">
-                            <i class="fa-solid fa-bread-slice"></i>
+                            <button class="btn"><i class="fa-solid fa-bread-slice"></i></button>
                             <h4>carboidratos</h4>
                             <b>Fonte de energia do corpo humano e importantes para o funcionamento do sistema nervoso e dos músculos</b>
                         </div>
                         <div class="col-md-4 nutrients">
-                            <i class="fa-solid fa-bottle-droplet"></i>
+                            <button class="btn"><i class="fa-solid fa-bottle-droplet"></i></button>
                             <h4>gorduras</h4>
                             <b>Estão presentes na produção de energia, absorção de vitaminas lipossolúveis, formação de células e hormônios</b>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
+        <!-- rodapé -->
+        <footer id="footer-contact">
+            <div class="footer p-4 bg-black text-white text-sm">
+                <div class="flex justify-between mx-auto items-center" style="max-width: 1025px;">
+                    <div>
+                        <div class="text-sm">
+                            <a class="text-white hover:text-grey-light focus:text-grey-light"
+                               href="#footer-contact">Contact</a> •
+                            <a class="text-white hover:text-grey-light focus:text-grey-light"
+                               href="#footer-contact">Terms & Privacy</a>
+                        </div>
+                        <div class="mt-2">
+                            <span>&copy; 2023                            Corpo e Saúde
+                                 - All Rights Reserved
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <a class="pr-2" href="https://www.instagram.com/raitec.ufc/" target="_blank"><i class="fa fa-instagram text-lg md:text-2xl" aria-hidden="true" style="color: white;"></i></a>
+                        <a class="pr-2" href="https://www.linkedin.com/company/raitec-ufc/?originalSubdomain=br" target="_blank"><i class="fa fa-linkedin text-lg md:text-2xl" aria-hidden="true" style="color: white;"></i></a>
+                        <a class="pr-2" href="https://www.youtube.com/channel/UCNcco9uuPG6HPBuTnYfdaAg" target="_blank"><i class="fa fa-youtube text-lg md:text-2xl" aria-hidden="true" style="color: white;"></i></a>
+                    </div>
+                    
+                      
+                </div>
+            </div>
+        </footer>
 
         </div>
     </main>
