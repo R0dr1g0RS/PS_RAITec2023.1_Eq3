@@ -117,6 +117,7 @@ ol{
 .specialists-say{
     background-color: rgb(20, 20, 20);
 }
+
 .specialist-img{
     width: 250px;  
     display: block;
@@ -129,4 +130,43 @@ ol{
     color: rgb(138, 138, 138);
     text-transform: uppercase;
     font-weight: bold;
+}
+
+
+/*Seção das fonte de nutrientes*/
+.nutrients {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.nutrients b{
+    color: black;
+    font-weight: 300;
+
+}
+
+.nutrients i, .nutrients h4{
+    transition: .5s;
+    margin-bottom: 20px;
+}
+
+.nutrients i{
+    font-size: 36px;
+    color: #444;
+}
+
+.nutrients h4{
+    font-size: 20px;
+    color: #444;
+    text-transform: uppercase;
+}
+
+.nutrients:hover > i{
+    font-size: 30px;
+    color: rgb(116, 0, 0);
+}
+
+.nutrients:hover > h4{
+    font-size: 17px;
+    color: rgb(116, 0, 0);
 }
