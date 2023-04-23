@@ -122,10 +122,6 @@ ol{
 
 
 /*Seção dos Especialistas*/
-#specialists-say .container{
-    height: 90vh;
-}
-
 .specialists-say{
     background-color: rgb(20, 20, 20);
 }
@@ -158,13 +154,14 @@ ol{
     width: 80%;
 }
 
-#exercicios-area h4{
+.project-box h4{
     font-size: 20px;
     text-align: center;
     color: #444;
     text-transform: uppercase;
     margin-bottom: 60px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #444;
+    align-items: center;
     
 }
 
